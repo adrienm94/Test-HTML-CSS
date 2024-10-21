@@ -1,0 +1,14 @@
+{
+  "name": "tp-css",
+  "version": "1.0.0",
+  "description": "tp-html-css-diginamic",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass ./src/assets/scss/styles.scss ./src/assets/css/styles.css --watch"  
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.79.3"
+  }
+}

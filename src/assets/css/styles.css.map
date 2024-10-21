@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../scss/styles.scss",
+        "../scss/_body-header-footer.scss",
+        "../scss/_nav.scss",
+        "../scss/_headlines.scss",
+        "../scss/_section-main.scss"
+    ],
+    "names": [],
+    "mappings": ";AAAA;ACAA;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;AACI;EAEA;IACI;IACA;;EAGJ;IACI;IACA;IACA;;;AC1CJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACnBhB;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;ACTJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;AACI;EAEA;IAzBA;IACA;IACA,uBAwB0B;;;AAK9B;EACI;IAhCA;IACA;IACA,uBA+B0B",
+    "file": "styles.css"
+}

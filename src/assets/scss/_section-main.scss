@@ -1,0 +1,37 @@
+@mixin project_grid($grid_template_columns) {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: $grid_template_columns;
+}
+
+.about {
+    margin: 3%;
+}
+
+.projects {
+    padding: 2%;
+    margin: 2% 3%;
+    background-color: white;
+}
+
+.project {
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgb(232, 216, 226);
+    background-color: rgb(232, 226, 226);
+}
+
+@media (min-width: 768px) {
+    /* Propriétés lorsque l'écran a une longueur d'au moins 768px */
+
+    .project-grid {
+        @include project_grid(1fr 1fr 1fr)
+    }
+
+}
+
+@media (max-width: 768px){
+    .project-grid {
+        @include project_grid(none)
+    }
+}
